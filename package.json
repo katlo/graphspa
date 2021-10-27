@@ -1,0 +1,19 @@
+{
+  "name": "graph-spa",
+  "version": "1.0.0",
+  "description": "graph single page application written in javascript",
+  "main": "server.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bower": "^1.8.12",
+    "express": "^4.17.1",
+    "pathfinding": "^0.4.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kate longueil",
+  "license": "ISC"
+}

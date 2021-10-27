@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script src="main.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="grid.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+        <script type="text/javascript" src="./bower_components/pathfinding/pathfinding-browser.min.js"></script>
+    </head>
+    <body>  
+        <div id="wrapper">
+            <div class="navbar">
+                <button onclick="clearGrid()"><i class="fas fa-broom"></i>Clear Grid</button>
+                <button onclick="findShortestPath()"><i class="fas fa-wave-square"></i>Find Shortest Path</button>
+            </div>
+            <div class="info">Click a cell to select the Start Point and again to select the End Point. Continue clicking to create obstacles for the
+                path to avoid. Select Find Shortest Path to visualize the path on the grid. Select "Clear Grid" to reset.
+            </div>
+        </div>
+    </body>
+</html>
