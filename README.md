@@ -5,3 +5,4 @@ To run locally:
 2. cd to cloned directory
 3. npm install to install required dependencies
 5. npm start to start the local server
+6. navigate to http://localhost:3000/
