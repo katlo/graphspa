@@ -6,3 +6,6 @@ To run locally:
 3. npm install to install required dependencies
 5. npm start to start the local server
 6. navigate to http://localhost:3000/
+
+This application uses algorithms found in qiao/Pathfinding.js
+https://github.com/qiao/PathFinding.js/
